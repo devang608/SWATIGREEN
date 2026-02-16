@@ -1,0 +1,69 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                    SWATIGREENS WEBSITE DEPLOYMENT                   ║
+║                         HOSTINGER UPLOAD GUIDE                      ║
+╚══════════════════════════════════════════════════════════════════╝
+
+🎯 READY TO UPLOAD: Your website is fully built and ready!
+
+📦 WHAT TO UPLOAD:
+   Either use:
+   1️⃣ ZIP FILE: "SwatiGreens-Website-Deploy.zip" (easiest)
+   2️⃣ FOLDER: All contents from "build" folder
+
+🚀 HOSTINGER UPLOAD STEPS:
+
+1. LOGIN TO HOSTINGER
+   → Go to hostinger.com
+   → Login to your account
+   → Go to your hosting control panel
+
+2. OPEN FILE MANAGER
+   → Click "Files" → "File Manager" 
+   → Navigate to "public_html" folder
+   → DELETE any existing files (if fresh install)
+
+3. UPLOAD WEBSITE
+   Option A - ZIP Upload (Recommended):
+   → Click "Upload" → Select "SwatiGreens-Website-Deploy.zip"
+   → After upload, right-click the ZIP → "Extract"
+   → Delete the ZIP file after extraction
+
+   Option B - Folder Upload:
+   → Upload ALL files from "build" folder:
+     • index.html
+     • assets folder (with all contents)
+     • .htaccess file
+
+4. SET PERMISSIONS
+   → Right-click .htaccess → Properties → Set to 644
+   → Right-click assets folder → Properties → Set to 755
+
+5. ENABLE SSL (HTTPS)
+   → Go to "SSL" section in Hostinger panel
+   → Enable SSL certificate for your domain
+
+✅ VERIFICATION CHECKLIST:
+   □ All files uploaded to public_html
+   □ .htaccess file present and readable
+   □ Assets folder with images/CSS/JS
+   □ SSL certificate enabled
+   □ Website accessible via your domain
+
+🌐 YOUR WEBSITE FEATURES:
+   ✓ Responsive design (mobile-friendly)
+   ✓ Fast loading with optimized images
+   ✓ SEO optimized
+   ✓ Contact forms ready
+   ✓ Blog functionality
+   ✓ Modern React/Tailwind design
+
+❗ TROUBLESHOOTING:
+   • 404 errors? Check .htaccess file uploaded correctly
+   • Images not loading? Verify assets folder uploaded completely
+   • CSS broken? Clear browser cache and check file permissions
+
+📞 NEED HELP?
+   → Read detailed guide: DEPLOYMENT_GUIDE.md
+   → Contact Hostinger support if issues persist
+
+🎉 CONGRATULATIONS! Your SwatiGreens website is ready to go live!
